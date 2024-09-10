@@ -1,0 +1,28 @@
+.btn-s{
+    background: $secondary;
+    color: $primary;
+    padding: .5rem;
+    border-radius: 16px;
+    &:hover{
+        background: $tertiary;
+        color: $accent;
+    }
+
+}
+.btn-L{
+    background: $primary;
+    color: $white;
+    font-size: $h5-font-size;
+    padding-y: 1rem;
+    padding-x: 4rem;
+    border-radius: 8px;
+    &:hover{
+        background: $tertiary;
+        color: $accent;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: $h4-font-size;
+        border-radius: 16px;
+        
+    }
+}
